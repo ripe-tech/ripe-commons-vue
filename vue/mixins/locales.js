@@ -1,5 +1,9 @@
 export const localeMixin = {
     props: {
+        /**
+         * The ISO-15897 standard locale definition string that defines the locale fallback
+         * when the locale fallback isn't specified on the locale plugin setup.
+         */
         defaultLocaleFallback: {
             type: String,
             default: "en_us"
