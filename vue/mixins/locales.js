@@ -1,4 +1,10 @@
 export const localeMixin = {
+    props: {
+        defaultLocaleFallback: {
+            type: String,
+            default: "en_us"
+        }
+    },
     methods: {
         /**
          * Set the currently chosen locale.
@@ -95,7 +101,7 @@ export const localeMixin = {
         ) {
             localLocales = localLocales || {};
             locale = locale || Object.keys(localLocales)[0];
-            localeFallback = localeFallback || "en_us";
+            localeFallback = localeFallback || this.defaultLocaleFallback;
 
             // Setup localePlugin store
             store.registerModule("localePlugin", {
