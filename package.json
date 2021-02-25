@@ -53,6 +53,7 @@
     "dependencies": {
         "vue": "^2.6.12",
         "vue-global-events": "^1.2.1",
+        "vuex": "^3.6.2",
         "yonius": "^0.7.2"
     },
     "devDependencies": {
