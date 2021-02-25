@@ -1,5 +1,3 @@
-import { normalize } from "../../js";
-
 export const utilsMixin = {
     methods: {
         /**
