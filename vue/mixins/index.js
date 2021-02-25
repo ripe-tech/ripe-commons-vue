@@ -1,2 +1,2 @@
-export * from "./locales";
+export * from "./locale";
 export * from "./utils";
