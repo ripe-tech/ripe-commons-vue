@@ -6,5 +6,4 @@ package-lock.json
 /.vscode/settings.json
 
 /dist
-/storybook
 /node_modules
