@@ -1,11 +1,9 @@
-const Vue = require("vue").default;
 const testUtils = require("@vue/test-utils");
 const vuex = require("vuex");
 
 const localVue = testUtils.createLocalVue();
 
 localVue.use(vuex);
-localVue.prototype.$bus = new Vue();
 
 /**
  * Initializes and mount a custom component.
