@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-*
+* Migrate from uxf-webpack - [ripe-white/#935](https://github.com/ripe-tech/ripe-white/issues/935)
 
 ### Fixed
 
