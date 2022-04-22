@@ -1,4 +1,11 @@
-import { arrayListToCsv, arrayToCsv, objectListToCsv, objectToCsv, parseCsv, parseCsvFile } from "ripe-commons";
+import {
+    arrayListToCsv,
+    arrayToCsv,
+    objectListToCsv,
+    objectToCsv,
+    parseCsv,
+    parseCsvFile
+} from "ripe-commons";
 
 export const csvMixin = {
     methods: {
