@@ -51,6 +51,7 @@
         "webpack": "webpack --config webpack.config.js"
     },
     "dependencies": {
+        "ripe-commons": "^0.8.1",
         "vue": "^2.6.14",
         "vue-global-events": "^1.2.1",
         "vuex": "^3.6.2",
