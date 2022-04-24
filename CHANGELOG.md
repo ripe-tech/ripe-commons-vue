@@ -9,15 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+*
+
+### Changed
+
+*
+
+### Fixed
+
+*
+
+## [0.2.0] - 2022-04-24
+
+### Added
+
 * Add CSV mixin to wrap `ripe-commons-js` functions - [ripe-pulse/#302](https://github.com/ripe-tech/ripe-pulse/issues/302)
 
 ### Changed
 
 * Migrate from uxf-webpack - [ripe-white/#935](https://github.com/ripe-tech/ripe-white/issues/935)
-
-### Fixed
-
-*
 
 ## [0.1.1] - 2021-02-26
 
