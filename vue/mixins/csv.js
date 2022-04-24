@@ -1,7 +1,7 @@
 import {
-    arrayListToCsv,
+    arraysToCsv,
     arrayToCsv,
-    objectListToCsv,
+    objectsToCsv,
     objectToCsv,
     parseCsv,
     parseCsvFile
@@ -9,23 +9,23 @@ import {
 
 export const csvMixin = {
     methods: {
-        arrayListToCsv(data, headers = [], delimiter = ",") {
-            return arrayListToCsv(data, headers, delimiter);
+        arraysToCsv(data, headers = [], options = {}) {
+            return arraysToCsv(data, headers, options);
         },
-        arrayToCsv(data, delimiter = ",") {
-            return arrayToCsv(data, delimiter);
+        arrayToCsv(data, options = {}) {
+            return arrayToCsv(data, options);
         },
-        objectListToCsv(data, headers = [], delimiter = ",") {
-            return objectListToCsv(data, headers, delimiter);
+        objectsToCsv(data, headers = [], options = {}) {
+            return objectsToCsv(data, headers, options);
         },
-        objectToCsv(data, headers = [], delimiter = ",") {
-            return objectToCsv(data, headers, delimiter);
+        objectToCsv(data, headers = [], options = {}) {
+            return objectToCsv(data, headers, options);
         },
-        parseCsv(dataS, object = false, sanitize = true, delimiter = ",") {
-            return parseCsv(dataS, object, sanitize, delimiter);
+        parseCsv(dataS, options = {}) {
+            return parseCsv(dataS, options);
         },
-        parseCsvFile(file, parser = null) {
-            return parseCsvFile(file, parser);
+        parseCsvFile(file, options = {}) {
+            return parseCsvFile(file, options);
         }
     }
 };
